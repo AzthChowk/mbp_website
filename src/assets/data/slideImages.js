@@ -4,7 +4,7 @@ export const slides = [
     title: "beach",
   },
   {
-    url: "public/bg.png",
+    url: "/bg.png",
     title: "boat",
   },
   {
