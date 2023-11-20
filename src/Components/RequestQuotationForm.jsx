@@ -33,6 +33,7 @@ const RequestQuotationForm = () => {
           <label htmlFor="">Full name</label>
           <br />
           <input
+            required
             type="text"
             id="user_name"
             name="user_name"
@@ -48,6 +49,7 @@ const RequestQuotationForm = () => {
           <label htmlFor="">Email</label>
           <br />
           <input
+            required
             type="email"
             id="user_email"
             name="user_email"
@@ -63,6 +65,7 @@ const RequestQuotationForm = () => {
           <label htmlFor="">Message</label>
           <br />
           <textarea
+            required
             id="message"
             name="message"
             rows="10"
