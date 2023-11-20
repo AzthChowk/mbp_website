@@ -1,7 +1,7 @@
 export const equipmentsList = [
   {
     name: "Heidelberg GT 05",
-    image: "/public/Heidelberg-GTO-52-2-4.png",
+    image: "/Heidelberg-GTO-52-2-4.png",
     usedFor: "Printing",
     category: "Printing",
     sheetSize: "530x615mm",

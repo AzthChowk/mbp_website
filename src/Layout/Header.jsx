@@ -44,7 +44,7 @@ const Header = () => {
           >
             <Box className="logo">
               <NavLink to="/">
-                <img src="public\mbp white.svg" alt="" width="175px" />
+                <img src="/mbp white.svg" alt="" width="175px" />
               </NavLink>
             </Box>
             <Box className="hamburger-menu">
