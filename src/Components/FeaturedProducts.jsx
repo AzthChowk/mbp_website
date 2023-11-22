@@ -83,7 +83,7 @@ const FeaturedProducts = () => {
                 />
               </div>
               <div className="featured-product-title">
-                <h4>{item.name}</h4>
+                <h5>{item.name}</h5>
               </div>
             </Grid>
           );
