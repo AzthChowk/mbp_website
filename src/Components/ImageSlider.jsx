@@ -58,9 +58,9 @@ const dotsContainerStyles = {
 };
 
 const dotStyle = {
-  margin: "0 3px",
+  margin: "0 5px",
   cursor: "pointer",
-  fontSize: "20px",
+  fontSize: "16px",
 };
 
 const ImageSlider = ({ slides }) => {
