@@ -32,7 +32,7 @@ const Service = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3} xl={3} sx={{ padding: 2 }}>
           <ServiceCard
-            img="https://media.istockphoto.com/id/1447292368/photo/close-up-view-of-delivery-man-organizing-packages-before-handing-package-to-customers.webp?b=1&s=170667a&w=0&k=20&c=a2mNpZtKx6ybJNLZjE0MXfdgZugKMQZlAMStFqEkh1Q="
+            img="https://www.printingcenterusa.com/blog/wp-content/uploads/2019/01/snippet-image_perf-bound_1200x975.png"
             title="Delivery"
             para="We deliver on your doorstep."
           />

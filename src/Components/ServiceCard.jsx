@@ -1,5 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Button } from "@mui/material";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { theme } from "./Theme";
+
 const ServiceCard = (props) => {
   return (
     <div>
@@ -15,9 +19,11 @@ const ServiceCard = (props) => {
       />
       <h2 style={{ fontWeight: "400", color: "#0a4449" }}>{props.title}</h2>
       <p style={{ padding: "10px 0" }}>{props.para}</p>
-      <button>
-        <NavLink to="services">Read more</NavLink>
-      </button>
+      <ThemeProvider theme={theme}>
+        <Button variant="dashed">
+          <NavLink to="services">Read more</NavLink>
+        </Button>
+      </ThemeProvider>
     </div>
   );
 };

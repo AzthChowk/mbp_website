@@ -12,7 +12,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Roboto, san-serif;
+  font-family: Kanit, san-serif;
 }
 .container {
   max-width: 1440px;
@@ -32,7 +32,7 @@ button {
   margin: 10px 0;
 
   border: 2px solid #164863;
-  background-color: transparent;
+  background-color: #164863;
   /* background-color: #164863; */
   color: #000;
 }
@@ -43,7 +43,12 @@ button:hover {
 }
 a {
   text-decoration: none;
+  color: #fff;
+}
+a:active {
+  text-decoration: none;
 }
 p {
   letter-spacing: 0.00938em;
+  font-weight: 200;
 }
