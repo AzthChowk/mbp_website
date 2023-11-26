@@ -81,21 +81,21 @@ const ServicePageAlt = () => {
       </Box>
       <CustomTabPanel value={value} index={0}>
         <ServiceCardAlt
-          image="/public/prePress.svg"
+          image="/prePress.svg"
           title="Pre-Press"
           description="Step into the first phase of our creative journey, where ideas transform into tangible designs. Our prepress team is dedicated to ensuring your artwork is optimized for printing excellence. From file preparation to color correction, we meticulously handle every aspect to guarantee a flawless foundation for your project."
         />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         <ServiceCardAlt
-          image="/public/printing.svg"
+          image="/printing.svg"
           title="Printing"
           description="As we move into the heart of our operations, witness the art of printing at its finest. With state-of-the-art technology and a commitment to quality, we bring your designs to life on paper with precision and vibrancy. Whether it's a small run or a large-scale project, our printing capabilities are tailored to meet your unique requirements. We provide variety of printing options from a single page to large volumes. We are happy to offer a traditional offset printing as well as modern digital printing to our clients. For the banners and hording boards we have also another unit which primarily focuses on flex printing. Print anything with us."
         />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         <ServiceCardAlt
-          image="/public/postPress.svg"
+          image="/postPress.svg"
           title="Post-Press"
           description="The journey doesn’t end with printing; it evolves into the meticulous realm of post-press. Our skilled craftsmen add the finishing touches that elevate your project to perfection. From binding and finishing to special coatings and embellishments, we ensure that every detail aligns with your vision. With the latest machineries we are determined to deliver a quality products with consistency an desired outcome. Our dedicated team will make sure that you get what you have visioned."
         />
