@@ -21,13 +21,16 @@ const ServiceCardAlt = ({ image, title, description }) => {
         <h1
           style={{
             fontSize: "26pt",
-            fontWeight: "900",
+            fontWeight: "300",
             textTransform: "uppercase",
+            color: "#FFBB5C",
           }}
         >
           {title}
         </h1>
-        <p style={{ lineHeight: "2rem" }}>{description}</p>
+        <p style={{ lineHeight: "2rem", paddingRight: "40px" }}>
+          {description}
+        </p>
         <button
           style={{
             margin: "50px 0",

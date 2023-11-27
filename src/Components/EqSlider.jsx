@@ -102,7 +102,9 @@ const EquipmentSlider = () => {
                   width="100%"
                   height="300px"
                 />
-                <h3 style={{ padding: "10px 0" }}>{item.name}</h3>
+                <h3 style={{ padding: "10px 0", fontWeight: "500" }}>
+                  {item.name}
+                </h3>
                 <p>{item.description.slice(0, 150)}...</p>
                 <button>
                   <NavLink to="equipment">Read more..</NavLink>

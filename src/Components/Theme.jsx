@@ -4,7 +4,7 @@ const defaultTheme = createTheme();
 
 export const theme = createTheme({
   typography: {
-    fontFamily: ["DM Sans"].join(","),
+    fontFamily: ["Prompt"].join(","),
     fontWeightLight: "200",
     fontWeightBold: "700",
     fontWeightRegular: "300",
