@@ -18,11 +18,13 @@ const Footer = () => {
         className="container"
         style={{ textAlign: "center", padding: "50px" }}
       >
-        <h1 style={{ color: "#900", fontWeight: "500" }}>Any Queries?</h1>
-        <h1 style={{ color: "#000", fontWeight: "500" }}>
+        <h1 style={{ color: "#D89216", fontWeight: "200", fontSize: "32pt" }}>
+          Any Queries?
+        </h1>
+        <h1 style={{ color: "#fff", fontWeight: "500" }}>
           Give us a call, +977-9841458081, 9851013446
         </h1>
-        <h3 style={{ fontWeight: "300", color: "#2b3f82" }}>
+        <h3 style={{ fontWeight: "300", color: "#fff" }}>
           We would love to hear from you.
         </h3>
       </div>
@@ -41,7 +43,7 @@ const Footer = () => {
             className="footer-contents-cts"
           >
             <h2>Manakamana Binding Press</h2>
-            <p>
+            <p style={{ padding: "10px 0" }}>
               Print anything with us, we are operating business since 2010.
               Pre-press, print, post-press, delivery with quality - it is what
               we are.
@@ -57,10 +59,12 @@ const Footer = () => {
             className="footer-contents-cts"
           >
             <h2>Contacts</h2>
-            <p>Location: Kalopul, Kathmandu</p>
-            <p>Tel: +977-9841458081, 9851013446</p>
-            <p>Email : manakamanabindingpress@gmail.com</p>
-            <p></p>
+            <h4 style={{ marginTop: "10px" }}>Location: </h4>
+            <p>Rudramati Marga, Kalopul, Kathmandu</p>
+            <h4 style={{ paddingTop: "10px" }}>Telephone: </h4>
+            <p>+977-9841458081, 9851013446</p>
+            <h4 style={{ paddingTop: "10px" }}>Email :</h4>
+            <p> manakamanabindingpress@gmail.com</p>
           </Grid>
 
           <Grid

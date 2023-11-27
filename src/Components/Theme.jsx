@@ -4,7 +4,7 @@ const defaultTheme = createTheme();
 
 export const theme = createTheme({
   typography: {
-    fontFamily: ["Kanit"].join(","),
+    fontFamily: ["DM Sans"].join(","),
     fontWeightLight: "200",
     fontWeightBold: "700",
     fontWeightRegular: "300",

@@ -27,7 +27,9 @@ const RequestQuotationForm = () => {
   };
   return (
     <div>
-      <h2 style={{ padding: "10px 0" }}>Request a Quotation</h2>
+      <h2 style={{ padding: "10px 0", fontWeight: "500" }}>
+        Request a Quotation
+      </h2>
       <div>
         <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="">Full name</label>

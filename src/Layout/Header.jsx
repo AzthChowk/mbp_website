@@ -33,8 +33,8 @@ const Header = () => {
             xs={12}
             sm={6}
             md={4}
-            lg={4}
-            xl={4}
+            lg={6}
+            xl={6}
             sx={{
               display: "flex",
               alignItems: "center",
@@ -76,8 +76,8 @@ const Header = () => {
             xs={12}
             sm={6}
             md={8}
-            lg={8}
-            xl={8}
+            lg={6}
+            xl={6}
             sx={{
               display: "flex",
               justifyContent: "space-between",
@@ -91,8 +91,8 @@ const Header = () => {
                 <ContactPhoneIcon fontSize="large" />
               </Box>
               <Box>
-                <h5>Tel: +977-9841458081, 9851013446</h5>
-                <h5>Email: manakamanabindingpress@gmail.com</h5>
+                <p>Tel: +977-9841458081, 9851013446</p>
+                <p>Email: manakamanabindingpress5@gmail.com</p>
               </Box>
             </Box>
             <Box className="contact-summary" sx={{ display: "flex", gap: 1 }}>
@@ -100,17 +100,8 @@ const Header = () => {
                 <FmdGoodIcon fontSize="large" />
               </Box>
               <Box>
-                <h5>Kalopul</h5>
-                <h5>Kathmandu, Nepal</h5>
-              </Box>
-            </Box>
-            <Box className="contact-summary" sx={{ display: "flex", gap: 1 }}>
-              <Box>
-                <AccessTimeIcon fontSize="large" />
-              </Box>
-              <Box>
-                <h5>Sunday - Friday [ 9AM - 6PM ]</h5>
-                <h5>Saturday - Close</h5>
+                <p>Rudramati Marga, Kalopul</p>
+                <p>Kathmandu, Nepal</p>
               </Box>
             </Box>
           </Grid>

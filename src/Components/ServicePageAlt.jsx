@@ -47,7 +47,15 @@ const ServicePageAlt = () => {
     setValue(newValue);
   };
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box
+      sx={{
+        width: "100%",
+        backgroundColor: "#03506F",
+        borderRadius: "5px",
+        color: "#fff",
+        margin: "40px 0",
+      }}
+    >
       <CustomHeader title="Our Services" />
       <Box>
         <Tabs
@@ -57,10 +65,10 @@ const ServicePageAlt = () => {
           centered
           sx={{
             "& button": {
-              border: "1px solid #164863",
+              border: "1px solid #fff",
               padding: { xs: "10px 25px", sm: "10px 30px", md: "10px 50px" },
               borderRadius: "50px",
-              color: "#164863",
+              color: "#FFBB5C",
               margin: { xs: "20px 5px", sm: "20px 10px", md: "20px 10px" },
             },
             "& button:hover": {
@@ -68,8 +76,8 @@ const ServicePageAlt = () => {
               color: "#fff",
             },
             "& button.Mui-selected": {
-              backgroundColor: "#272829",
-              color: "#fff",
+              backgroundColor: "#FFBB5C",
+              color: "#000",
             },
             ".MuiTabs-indicator": { display: "none" },
           }}
