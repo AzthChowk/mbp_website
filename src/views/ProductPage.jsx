@@ -83,8 +83,18 @@ const ProductPage = () => {
                       <strong>Available sizes :</strong> {item.availableSizes}
                     </p>
                     <p style={{ padding: "10px 0", fontSize: "11pt" }}>
-                      <strong>Binding options :</strong> {item.bindingOptions}
+                      {item.bindingOptions ? (
+                        <>
+                          <strong>Binding options :</strong>{" "}
+                          {item.bindingOptions}
+                        </>
+                      ) : (
+                        <></>
+                      )}
                     </p>
+                    <button className="secondary-btn">
+                      Request a quotation
+                    </button>
                   </div>
                 </Grid>
               );

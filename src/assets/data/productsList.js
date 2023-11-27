@@ -8,7 +8,7 @@ export const productsList = [
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
     bindingOptions: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A brochure is a printed marketing material that typically presents concise information about a company, product, service, or event. It is designed to be visually appealing and informative, serving as a compact yet effective tool for conveying key messages to a target audience.",
   },
   {
     image:
@@ -39,9 +39,9 @@ export const productsList = [
     category: "Books / NoteBooks",
     availableSizes:
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
-    bindingOptions: "",
+    bindingOptions: "Hard cover, Perfect binding, Paper Back",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A book is a written or printed work consisting of pages bound together, typically with a protective cover. It is a medium for conveying information, stories, or ideas through text, images, or a combination of both.",
   },
   {
     image:
@@ -52,18 +52,17 @@ export const productsList = [
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
     bindingOptions: "Spiral binding, Wire-o binding",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A desk calendar is a practical and versatile organizational tool designed for use on a desk, table, or any flat surface. Desk calendars serve as practical tools for staying organized, managing time effectively, and keeping track of important dates in a visually appealing and user-friendly manner.",
   },
   {
     image:
       "https://mockuphunt.co/cdn/shop/products/Box_Mockups_OK_2_b6ed3ef7-bf46-4127-b18f-57f96fffe450_800x.jpg?v=1524830968",
-    name: "Medicine Box",
+    name: "Packaging Box",
     category: "Packaging Products",
-    availableSizes:
-      "A4, A5, A3, B5, B4, Custom sizes according to requirements",
+    availableSizes: "Custom sizes according to requirements",
     bindingOptions: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A packaging box is a container designed to enclose and protect products during storage, transportation, and display. It is typically made of cardboard, paperboard, or corrugated materials and is often customized to fit the specific dimensions and branding of the enclosed items. It also represent the brand values of any organization.",
   },
   {
     image:
@@ -72,9 +71,9 @@ export const productsList = [
     category: "Books / NoteBooks",
     availableSizes:
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
-    bindingOptions: "",
+    bindingOptions: "Hard cover, Leather cover, Paper Back",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A diary is a personal journal or record-keeping book in which individuals document their thoughts, experiences, and daily activities.They provide a tangible and chronological account of one's life, offering a means for individuals to organize their thoughts and reflect on their personal journey.",
   },
   {
     image:
@@ -83,9 +82,9 @@ export const productsList = [
     category: "Marketing Products",
     availableSizes:
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
-    bindingOptions: "",
+    bindingOptions: "Spiral binding, Metal sheet binding, Wire-O Binding",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A wall calendar is a time-keeping and organizational tool designed for hanging on a wall. Wall calendars serve as visual aids for tracking appointments, events, and activities. They can come in various sizes and designs, often featuring themed artwork, images, or inspirational quotes for each month. Wall calendars are popular in homes and offices, providing a convenient and accessible way to plan and schedule activities throughout the year.",
   },
   {
     image: "https://kejiedigital.com/images/products/flex-printer-s2-1.png",
@@ -94,6 +93,6 @@ export const productsList = [
     availableSizes: "Custom sizes according to requirements",
     bindingOptions: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Flex print, short for flexible printing, is a versatile and cost-effective printing method commonly used for creating high-quality graphics on flexible materials such as vinyl, fabric, or plastic. It is widely employed in the production of banners, signage, promotional materials, and large-format prints. Flex printing allows for vibrant and durable images, making it suitable for both indoor and outdoor applications. Flex prints are known for their durability, weather resistance, and the ability to reproduce intricate details with vivid colors.",
   },
 ];

@@ -65,7 +65,11 @@ const EquipmentPage = () => {
                       style={{ objectFit: "contain" }}
                     />
                   </div>
-                  <div style={{ padding: "10px 20px" }}>
+                  <div
+                    style={{
+                      padding: "10px 20px",
+                    }}
+                  >
                     <h3>{item.name}</h3>
                     <p style={{ padding: "10px 0", fontSize: "11pt" }}>
                       {item.description}
