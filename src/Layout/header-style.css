@@ -1,3 +1,8 @@
+.navbar-wrapper {
+  box-shadow: 10px 10px;
+  position: fixed;
+}
+
 .nav-menu-wrapper {
   border-top: 1px solid #000;
 }
@@ -65,10 +70,9 @@
 
   .nav-menu-wrapper .mobile-menu-bar-nav-menu {
     display: block;
-    background-color: #0a4449;
+    background-color: #f3f3f3;
     width: 100%;
     text-align: center;
-
     transition: ease-in-out 0.5s;
   }
   .nav-menu-wrapper .mobile-menu-bar-nav-menu ul {
@@ -77,12 +81,12 @@
   .nav-menu-wrapper .mobile-menu-bar-nav-menu ul li {
     padding: 10px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
   }
   .nav-menu-wrapper .mobile-menu-bar-nav-menu ul li a {
     padding: 10px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
   }
   .nav-menu-wrapper .mobile-menu-bar-nav-menu ul li:hover {
     background-color: #ffd254;

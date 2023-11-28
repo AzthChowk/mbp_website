@@ -1,0 +1,31 @@
+.homePageServiceImg {
+  position: relative;
+  animation-name: serviceImgAni;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  transition: 4s ease-in;
+}
+.homePageServiceDes {
+  position: relative;
+  animation-name: serviceDesAni;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  transition: 4s ease-in;
+}
+
+@keyframes serviceImgAni {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes serviceDesAni {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 0px;
+  }
+}

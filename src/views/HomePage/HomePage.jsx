@@ -7,23 +7,23 @@ import EquipmentSlider from "../../Components/EqSlider";
 import FeaturedProducts from "../../Components/FeaturedProducts";
 import RequestQuotation from "../../Components/RequestQuotation";
 import ServicePageAlt from "../../Components/ServicePageAlt";
+import HomePageBanner from "../../Components/HomePageBanner";
 
 const HomePage = () => {
   const containerStyles = {
     width: "100%",
-    height: "60vh",
+    height: "70vh",
   };
   return (
     <>
-      {/* <div>
-        <MuiCustomizationDemo />
-      </div> */}
-      <div style={containerStyles}>
+      {/* <div style={containerStyles}>
         <ImageSlider slides={slides} />
+      </div> */}
+      <div>
+        <HomePageBanner />
       </div>
       <div className="container">
         <Intro />
-        {/* <Divider sx={{ padding: 1 }} /> */}
         <ServicePageAlt />
         <FeaturedProducts />
       </div>

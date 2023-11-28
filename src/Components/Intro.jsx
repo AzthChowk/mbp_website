@@ -10,7 +10,7 @@ const Intro = () => {
         style={{
           padding: "10px 50px",
           textAlign: "center",
-          lineHeight: "25px",
+          lineHeight: "2.25rem",
         }}
       >
         Welcome to the heart of innovation in printing technology! At Manakamana

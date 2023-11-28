@@ -18,7 +18,7 @@ const RequestQuotation = () => {
           className="container"
           style={{ textAlign: "center", padding: "125px" }}
         >
-          <h1 style={{ fontWeight: "200", fontSize: "40pt" }}>
+          <h1 style={{ fontWeight: "200", fontSize: "28pt" }}>
             Request a Quotation
           </h1>
 

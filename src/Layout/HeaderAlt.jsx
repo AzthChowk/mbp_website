@@ -17,6 +17,7 @@ const HeaderAlt = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <Box
+      className="navbar-wrapper"
       sx={{
         backgroundColor: "#F3F3F3",
         // background: "linear-gradient(45deg, #2b3f82, #04624e, #ffd254)",
@@ -24,7 +25,7 @@ const HeaderAlt = () => {
         height: "auto",
         color: "#000",
         boxShadow:
-          "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px",
+          "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
         zIndex: "1000",
       }}
     >
@@ -50,13 +51,16 @@ const HeaderAlt = () => {
           <YouTubeIcon />
           <InstagramIcon />
         </Box>
-        <Box className="hamburger-menu">
+        <Box
+          className="hamburger-menu"
+          sx={{ alignItems: "center", padding: "10px 0 0 0" }}
+        >
           {mobileMenuOpen ? (
             <>
               <CloseIcon
                 fontSize="medium"
                 sx={{
-                  color: "#fff",
+                  color: "#000",
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               />
@@ -65,7 +69,7 @@ const HeaderAlt = () => {
             <>
               <MenuIcon
                 fontSize="medium"
-                sx={{ color: "#fff" }}
+                sx={{ color: "#000" }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               />
             </>
