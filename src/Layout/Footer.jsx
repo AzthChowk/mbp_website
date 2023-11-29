@@ -103,7 +103,7 @@ const Footer = () => {
                 gap: "20px",
               }}
             >
-              <button className="secondary-btn">Download the profile</button>
+              <button className="primary-btn">Download the profile</button>
             </Box>
           </Grid>
           <Grid
