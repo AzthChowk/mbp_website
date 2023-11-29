@@ -75,88 +75,6 @@ const HeaderAlt = () => {
             </>
           )}
         </Box>
-        {/* <Grid
-          container
-          sx={{ display: "flex", justifyContent: "space-between" }}
-        >
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={4}
-            lg={6}
-            xl={6}
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: 2,
-              justifyContent: "space-between",
-            }}
-          >
-            <Box className="logo">
-              <NavLink to="/">
-                <img src="/mbp white.svg" alt="" width="175px" />
-              </NavLink>
-            </Box>
-            <Box className="hamburger-menu">
-              {mobileMenuOpen ? (
-                <>
-                  <CloseIcon
-                    fontSize="medium"
-                    sx={{
-                      color: "#fff",
-                    }}
-                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  />
-                </>
-              ) : (
-                <>
-                  <MenuIcon
-                    fontSize="medium"
-                    sx={{ color: "#fff" }}
-                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  />
-                </>
-              )}
-            </Box>
-          </Grid>
-
-          <Grid
-            item
-            className="contact-summary-wrapper"
-            xs={12}
-            sm={6}
-            md={8}
-            lg={6}
-            xl={6}
-            sx={{
-              display: "flex",
-              justifyContent: "space-between",
-              color: "#fff",
-              gap: 2,
-              alignItems: "center",
-            }}
-          >
-            <Box className="contact-summary" sx={{ display: "flex", gap: 1 }}>
-              <Box>
-                <ContactPhoneIcon fontSize="large" />
-              </Box>
-              <Box>
-                <p>Tel: +977-9841458081, 9851013446</p>
-                <p>Email: manakamanabindingpress5@gmail.com</p>
-              </Box>
-            </Box>
-            <Box className="contact-summary" sx={{ display: "flex", gap: 1 }}>
-              <Box>
-                <FmdGoodIcon fontSize="large" />
-              </Box>
-              <Box>
-                <p>Rudramati Marga, Kalopul</p>
-                <p>Kathmandu, Nepal</p>
-              </Box>
-            </Box>
-          </Grid>
-        </Grid> */}
       </Box>
 
       <Box
@@ -198,7 +116,9 @@ const HeaderAlt = () => {
             alignItems: "center",
           }}
         >
-          Request a quotation
+          <NavLink to="/contact" style={{ color: "#000" }}>
+            Request a quotation
+          </NavLink>
         </Box>
       </Box>
     </Box>

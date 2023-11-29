@@ -20,9 +20,9 @@ const ServiceCard = (props) => {
       <h2 style={{ fontWeight: "400", color: "#0a4449" }}>{props.title}</h2>
       <p style={{ padding: "10px 0" }}>{props.para}</p>
       <ThemeProvider theme={theme}>
-        <Button variant="dashed">
+        <button className="primary-btn">
           <NavLink to="services">Read more</NavLink>
-        </Button>
+        </button>
       </ThemeProvider>
     </div>
   );

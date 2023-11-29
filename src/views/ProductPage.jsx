@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import ServicePageCard from "./ServicePageCard";
 import PageHeader from "../Components/PageHeader";
 import { productsList } from "../assets/data/productsList";
+import { NavLink } from "react-router-dom";
 
 const ProductPage = () => {
   return (
@@ -93,7 +94,7 @@ const ProductPage = () => {
                       )}
                     </p>
                     <button className="secondary-btn">
-                      Request a quotation
+                      <NavLink to="/contact">Request a quotation</NavLink>
                     </button>
                   </div>
                 </Grid>

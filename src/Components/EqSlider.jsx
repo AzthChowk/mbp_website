@@ -106,7 +106,7 @@ const EquipmentSlider = () => {
                   {item.name}
                 </h3>
                 <p>{item.description.slice(0, 150)}...</p>
-                <button>
+                <button className="secondary-btn">
                   <NavLink to="equipment">Read more..</NavLink>
                 </button>
               </div>

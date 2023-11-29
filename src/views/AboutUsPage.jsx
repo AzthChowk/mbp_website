@@ -58,9 +58,17 @@ const AboutUsPage = () => {
     <>
       <PageHeader pageTitle="About us" />
 
-      <div className="container" style={{ padding: "50px 10px" }}>
+      <div className="container" style={{ padding: "10px 10px 50px 10px" }}>
         <Grid container>
-          <Grid item xs="12" sm="4" md="4" lg="3" xl="3">
+          <Grid
+            item
+            xs="12"
+            sm="3"
+            md="3"
+            lg="3"
+            xl="3"
+            sx={{ display: { xs: "none", sm: "block", md: "block" } }}
+          >
             <h2 style={{ fontWeight: "500", padding: "10px 0" }}>About Us</h2>
             <ul style={{ listStyle: "none" }}>
               <li>Who we are?</li>

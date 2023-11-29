@@ -76,7 +76,7 @@ const Footer = () => {
             xl={3}
             className="footer-contents-cts"
           >
-            <h2>Connects</h2>
+            <h2>Social Connects</h2>
 
             <Box
               className="menu-bar-social-links"
@@ -103,7 +103,7 @@ const Footer = () => {
                 gap: "20px",
               }}
             >
-              <button>Download the profile</button>
+              <button className="secondary-btn">Download the profile</button>
             </Box>
           </Grid>
           <Grid

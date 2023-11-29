@@ -40,7 +40,7 @@ const ServiceCardAlt = ({ image, title, description }) => {
         <h1
           style={{
             fontSize: "26pt",
-            fontWeight: "300",
+            fontWeight: "700",
             textTransform: "uppercase",
             color: "#FFBB5C",
           }}
@@ -50,14 +50,8 @@ const ServiceCardAlt = ({ image, title, description }) => {
         <p style={{ lineHeight: "2rem", paddingRight: "40px" }}>
           {description}
         </p>
-        <button
-          style={{
-            margin: "50px 0",
-            padding: "10px 40px",
-            border: "1px solid #fff",
-          }}
-        >
-          <NavLink to="services">Read more...</NavLink>
+        <button className="primary-btn">
+          <NavLink to="services">Read more</NavLink>
         </button>
       </Grid>
     </Grid>

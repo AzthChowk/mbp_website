@@ -8,6 +8,7 @@ import FeaturedProducts from "../../Components/FeaturedProducts";
 import RequestQuotation from "../../Components/RequestQuotation";
 import ServicePageAlt from "../../Components/ServicePageAlt";
 import HomePageBanner from "../../Components/HomePageBanner";
+import ScrollToTop from "../../Utils/ScrollToTop";
 
 const HomePage = () => {
   const containerStyles = {
@@ -16,6 +17,7 @@ const HomePage = () => {
   };
   return (
     <>
+      <ScrollToTop />
       {/* <div style={containerStyles}>
         <ImageSlider slides={slides} />
       </div> */}

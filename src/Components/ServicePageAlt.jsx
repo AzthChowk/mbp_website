@@ -50,7 +50,7 @@ const ServicePageAlt = () => {
     <Box
       sx={{
         width: "100%",
-        backgroundColor: "#03506F",
+        backgroundColor: "#0e1715",
         borderRadius: "5px",
         color: "#fff",
         margin: "40px 0",
@@ -67,13 +67,13 @@ const ServicePageAlt = () => {
             "& button": {
               border: "1px solid #fff",
               padding: { xs: "10px 25px", sm: "10px 30px", md: "10px 50px" },
-              borderRadius: "50px",
+              borderRadius: "2px",
               color: "#FFBB5C",
               margin: { xs: "20px 5px", sm: "20px 10px", md: "20px 10px" },
             },
             "& button:hover": {
               backgroundColor: "#FFBB5C",
-              color: "#fff",
+              color: "#000",
             },
             "& button.Mui-selected": {
               backgroundColor: "#FFBB5C",

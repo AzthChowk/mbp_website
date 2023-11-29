@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const EquipmentCard = (props) => {
   return (
@@ -6,7 +7,9 @@ const EquipmentCard = (props) => {
       <img src={props.image} alt={props.name} width="100%" />
       <h2>{props.name}</h2>
       <p>{props.description}</p>
-      <button>Read more..</button>
+      <button className="secondary-btn">
+        <NavLink to="contact">Read more..</NavLink>
+      </button>
     </div>
   );
 };

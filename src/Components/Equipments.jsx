@@ -49,7 +49,7 @@ const Equipments = () => {
                 <p style={{ padding: "10px 0" }}>
                   {item.description.slice(0, 150)}...
                 </p>
-                <button>
+                <button className="secondary-btn">
                   <NavLink to="equipment">Read more</NavLink>
                 </button>
               </div>

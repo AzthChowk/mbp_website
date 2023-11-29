@@ -16,7 +16,11 @@ const RequestQuotation = () => {
       >
         <div
           className="container"
-          style={{ textAlign: "center", padding: "125px" }}
+          style={{
+            textAlign: "center",
+            padding: "125px",
+            alignItems: "center",
+          }}
         >
           <h1 style={{ fontWeight: "200", fontSize: "28pt" }}>
             Request a Quotation
@@ -26,7 +30,7 @@ const RequestQuotation = () => {
             Click the button to request a quotation or just send us an email at
             mail@mail.com.
           </p>
-          <button>
+          <button className="secondary-btn">
             <NavLink to="contact">Click me</NavLink>
           </button>
         </div>
