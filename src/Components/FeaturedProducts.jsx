@@ -5,6 +5,7 @@ import { Button, Grid } from "@mui/material";
 import { featuredProductsData } from "../assets/data/featuredProductsData";
 
 import "./featuredproducts.css";
+import { NavLink } from "react-router-dom";
 
 const FeaturedProducts = () => {
   // const filterList = (value) => {
@@ -26,7 +27,9 @@ const FeaturedProducts = () => {
     <>
       <CustomHeader title="Explore Our Products" />
       <div style={{ textAlign: "center" }}>
-        <button className="secondary-btn">Explore All</button>
+        <NavLink to="/products">
+          <button className="secondary-btn">Explore All</button>
+        </NavLink>
       </div>
       <Grid container className="featured-products">
         {featuredProductsData.map((item, index) => {

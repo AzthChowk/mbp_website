@@ -30,9 +30,9 @@ const RequestQuotation = () => {
             Click the button to request a quotation or just send us an email at
             mail@mail.com.
           </p>
-          <button className="secondary-btn">
-            <NavLink to="contact">Click me</NavLink>
-          </button>
+          <NavLink to="contact">
+            <button className="secondary-btn">Click me</button>
+          </NavLink>
         </div>
       </div>
     </>

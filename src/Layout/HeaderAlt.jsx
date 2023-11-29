@@ -97,7 +97,7 @@ const HeaderAlt = () => {
               <NavLink to="products">Products</NavLink>
             </li>
             <li>
-              <NavLink to="equipment">Equipments</NavLink>
+              <NavLink to="equipments">Equipments</NavLink>
             </li>
             <li>
               <NavLink to="aboutus">About us</NavLink>
