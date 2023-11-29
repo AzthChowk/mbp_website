@@ -10,7 +10,7 @@ const ServiceCardAlt = ({ image, title, description }) => {
         className="homePageServiceImg"
         item
         xs={12}
-        sm={6}
+        sm={12}
         md={6}
         lg={6}
         xl={6}
@@ -20,8 +20,8 @@ const ServiceCardAlt = ({ image, title, description }) => {
           src={image}
           alt=""
           style={{
+            padding: "10px",
             width: "100%",
-            height: "80%",
             objectFit: "contain",
             borderRadius: "5px",
           }}
@@ -31,7 +31,7 @@ const ServiceCardAlt = ({ image, title, description }) => {
         className="homePageServiceDes"
         item
         xs={12}
-        sm={6}
+        sm={12}
         md={6}
         lg={6}
         xl={6}
