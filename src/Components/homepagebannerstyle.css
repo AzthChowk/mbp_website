@@ -3,8 +3,15 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  filter: blur(2px);
+  overflow: hidden;
+  filter: hue-rotate(15deg);
   /* background-color: #2c2c2c;
   background: linear-gradient(45deg, #2b3f82, #04624e); */
+}
+.banner-wrapper:hover {
+  filter: blur(0px);
+  transition: 1s ease-in;
 }
 .banner-cts {
   position: relative;

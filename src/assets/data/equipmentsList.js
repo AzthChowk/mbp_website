@@ -29,6 +29,15 @@ export const equipmentsList = [
       "The automatic functions cut, feed and position the wire for insertion and then send the document to a patented closing unit that accurately positions the document without the need for stops or paper guides, ",
   },
   {
+    name: "Plastic Lamination Machine - Thermal and Normal",
+    image: "/thermalLamination.png",
+    usedFor: "Thin plastic lamination on paper, both thermal and normal",
+    category: "PostPress",
+    sheetSize: "530x615mm",
+    description:
+      "This machine is used for the lamination purpose. Thin plastic, as seen mostly on the book covers, is the work of this machine. ",
+  },
+  {
     name: "Automatic Paper Cutting Machine",
     image:
       "https://5.imimg.com/data5/WT/EM/MY-5029390/guillotine-paper-cutting-machine-500x500.png",
