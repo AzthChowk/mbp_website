@@ -5,6 +5,8 @@ import PageHeader from "../Components/PageHeader";
 import { productsList } from "../assets/data/productsList";
 import { NavLink } from "react-router-dom";
 
+import styles from "./productPageStyle.css";
+
 const ProductPage = () => {
   return (
     <>
@@ -50,12 +52,14 @@ const ProductPage = () => {
             {productsList.map((item, index) => {
               return (
                 <Grid
+                  className="productListMap"
                   key={index}
                   sx={{
                     margin: 1,
                     // border: "1px solid #999",
                     borderRadius: "5px",
                     boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+                    "&:hover": { backgroundColor: "#EEF5FF" },
                   }}
                 >
                   <div>

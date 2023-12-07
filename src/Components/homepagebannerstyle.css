@@ -131,22 +131,23 @@
 
 @media screen and (max-width: 600px) {
   .banner-wrapper {
-    height: 40vh;
+    height: 100vh;
   }
   .banner-wrapper .banner-cts .banner-cts-img img {
     width: 250px;
   }
   .banner-wrapper .banner-cts .banner-cts-des {
     position: relative;
-    top: 25%;
+    top: 50%;
     transform: translate(0%, -50%);
     left: 10px;
     color: #fff;
   }
   .banner-wrapper .banner-cts .banner-cts-des h1 {
-    font-size: 18pt;
+    font-size: 36pt;
+    transition: 0.5s ease-in;
   }
   .banner-wrapper .banner-cts .banner-cts-des h2 {
-    font-size: 12pt;
+    font-size: 18pt;
   }
 }
