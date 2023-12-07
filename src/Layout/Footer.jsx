@@ -11,7 +11,16 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
-  console.log(year);
+  const onButtonClick = () => {
+    const pdfUrl = "/public/ManakamanaBindingPress Profile.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "/public/ManakamanaBindingPress Profile.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="footer-wrapper">
       <div
@@ -103,7 +112,9 @@ const Footer = () => {
                 gap: "20px",
               }}
             >
-              <button className="primary-btn">Download the profile</button>
+              <button className="primary-btn" onClick={onButtonClick}>
+                Download the profile
+              </button>
             </Box>
           </Grid>
           <Grid
