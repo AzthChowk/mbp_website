@@ -5,7 +5,7 @@ import PageHeader from "../Components/PageHeader";
 import { productsList } from "../assets/data/productsList";
 import { NavLink } from "react-router-dom";
 
-import styles from "./productPageStyle.css";
+import "./productPageStyle.css";
 
 const ProductPage = () => {
   return (

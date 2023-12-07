@@ -1,0 +1,13 @@
+.intStyle {
+  text-align: center;
+}
+
+.clienttele-cts {
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.clienttele-cts img:hover {
+  transform: translateY(100%);
+}

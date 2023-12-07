@@ -9,6 +9,8 @@ import RequestQuotation from "../../Components/RequestQuotation";
 import ServicePageAlt from "../../Components/ServicePageAlt";
 import HomePageBanner from "../../Components/HomePageBanner";
 import ScrollToTop from "../../Utils/ScrollToTop";
+import Clienttele from "../../Components/Clienttele";
+import WhyUs from "../../Components/WhyUs";
 
 const HomePage = () => {
   const containerStyles = {
@@ -27,7 +29,15 @@ const HomePage = () => {
       <div className="container">
         <Intro />
         <ServicePageAlt />
-        <FeaturedProducts />
+      </div>
+      <div style={{ backgroundColor: "#E0F4FF" }}>
+        <div className="container">
+          <FeaturedProducts />
+          <WhyUs />
+        </div>
+      </div>
+      <div className="container">
+        <Clienttele />
       </div>
       <div>
         <RequestQuotation />
