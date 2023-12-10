@@ -7,15 +7,36 @@ const WhyUs = () => {
   return (
     <div
       style={{
-        padding: "25px 0",
+        padding: "40px 0",
         alignItems: "center",
       }}
     >
-      <CustomHeader title="What makes Manakamana Binding Press stand out?" />
+      <h3
+        style={{
+          fontWeight: "400",
+          textAlign: "center",
+          textTransform: "uppercase",
+        }}
+      >
+        So, why choose
+      </h3>
+      <h1
+        style={{
+          fontWeight: "700",
+          textAlign: "center",
+          fontSize: "36pt",
+          color: "#2c2c2c",
+        }}
+      >
+        Manakamana Binding Press?
+      </h1>
+      <h3 style={{ fontWeight: "300", textAlign: "center" }}>
+        What makes Manakamana Binding Press stand out?
+      </h3>
 
       <Grid
         sx={{
-          padding: "10px",
+          padding: "50px 0",
           display: "grid",
           gap: "25px",
           gridTemplateColumns: {
