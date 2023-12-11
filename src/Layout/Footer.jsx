@@ -31,7 +31,7 @@ const Footer = () => {
           Any Queries?
         </h1>
         <h1 style={{ color: "#fff", fontWeight: "500" }}>
-          Give us a call, +977-9841458081, 9851013446
+          Give us a call, +977- 9851013446, 9841458081
         </h1>
         <h3 style={{ fontWeight: "300", color: "#fff" }}>
           We would love to hear from you.
@@ -53,9 +53,8 @@ const Footer = () => {
           >
             <h2>Manakamana Binding Press</h2>
             <p style={{ padding: "10px 0" }}>
-              Print anything with us, we are operating business since 2010.
-              Pre-press, print, post-press, delivery with quality - it is what
-              we are.
+              Print anything with us, we are operating business since 2014.
+              Pre-press, print, post-press - it is what we are.
             </p>
           </Grid>
           <Grid
@@ -71,9 +70,9 @@ const Footer = () => {
             <h4 style={{ marginTop: "10px" }}>Location: </h4>
             <p>Rudramati Marga, Kalopul, Kathmandu</p>
             <h4 style={{ paddingTop: "10px" }}>Telephone: </h4>
-            <p>+977-9841458081, 9851013446</p>
+            <p>+977- 9851013446, 9841458081</p>
             <h4 style={{ paddingTop: "10px" }}>Email :</h4>
-            <p> manakamanabindingpress@gmail.com</p>
+            <p> manakamanabindingpress5@gmail.com</p>
           </Grid>
 
           <Grid

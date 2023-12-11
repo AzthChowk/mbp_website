@@ -19,7 +19,7 @@ export const productsList = [
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
     bindingOptions: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Though the digital technology makes great impact, Letterhead and envelopes seems subtle but yet important components of an organization's marketing. It sounds simple however it reinforce and exhibit the organization's value.",
   },
   {
     image:
@@ -30,7 +30,7 @@ export const productsList = [
       "A4, A5, A3, B5, B4, Custom sizes according to requirements",
     bindingOptions: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Packaging makes an enormous impact on how customers perceive your brand. Everything from the colors, materials, and designs you use can impact what customers think of your brand and affect how you stand out against the competition. Taking the time to have custom packaging created for your brand is an extra step that can go a long way for the success of your business and solidifying the recognizable brand that you're working hard to build.",
   },
   {
     image:

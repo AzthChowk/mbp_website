@@ -13,7 +13,7 @@ const HomePageBanner = () => {
           <h2>PRE-PRESS, PRINTING, POST-PRESS</h2>
 
           <h3>Start by sending a quotation request.</h3>
-          <button className="primary-btn">Send here</button>
+          <button className="primary-btn banner-btn">Send here</button>
         </div>
       </div>
     </div>

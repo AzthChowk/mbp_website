@@ -36,36 +36,31 @@
   color: #fff;
   overflow: hidden;
   border-left: 10px solid #ffbb5c;
-
   padding: 0 30px;
   width: fit-content;
 }
 
 .banner-cts-des h1 {
-  font-size: 50pt;
-  font-family: Antonio;
-
-  /* position: relative;
-  animation-name: bannerTxtH2;
-  animation-duration: 4s;
+  font-size: 42pt;
+  font-weight: 300;
+  font-family: "Red Rose";
+  text-transform: uppercase;
+  position: relative;
+  animation-name: bannerTxtH1;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  transition: 4s ease-in; */
+  transition: 2s;
 }
-/* .banner-cts-des h1:hover {
-  transform: skew(0deg);
-  transition: 0.5s ease-in;
-  cursor: pointer;
-} */
+
 .banner-cts-des h2 {
   font-size: 20pt;
   font-weight: 300;
   font-family: Antonio;
-
-  /* position: relative;
+  position: relative;
   animation-name: bannerTxtH2;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  transition: 4s ease-in; */
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  transition: 2s;
 }
 .banner-cts-des h2:hover {
   transition: 0.5s ease-in;
@@ -75,6 +70,20 @@
   font-weight: 300;
   padding-top: 10px;
   color: #ffbb5c;
+  position: relative;
+  animation-name: bannerTxtH3;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  transition: 2s;
+}
+.banner-cts-des .banner-btn {
+  font-weight: 300;
+  padding-top: 10px;
+  position: relative;
+  animation-name: bannerTxtBtn;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  transition: 2s;
 }
 @keyframes bannerImgAni {
   0% {
@@ -87,45 +96,52 @@
     top: 0px;
   }
 }
-@keyframes bannerTxtH2 {
+@keyframes bannerTxtH1 {
   0% {
-    left: -500px;
-    /* transform: skew(-10deg); */
+    bottom: 100px;
+    left: 0px;
   }
   50% {
-    /* transform: skew(0deg); */
   }
   100% {
-    left: 10px;
-    /* transform: skew(-10deg); */
+    bottom: 0px;
+    left: 0px;
   }
 }
-
-@keyframes example {
+@keyframes bannerTxtH2 {
   0% {
-    background-color: red;
+    bottom: 100px;
     left: 0px;
-    top: 0px;
-  }
-  25% {
-    background-color: yellow;
-    left: 200px;
-    top: 0px;
   }
   50% {
-    background-color: blue;
-    left: 200px;
-    top: 200px;
-  }
-  75% {
-    background-color: green;
-    left: 0px;
-    top: 200px;
   }
   100% {
-    background-color: red;
+    bottom: 0px;
     left: 0px;
+  }
+}
+@keyframes bannerTxtH3 {
+  0% {
+    top: 100px;
+    left: 0px;
+  }
+  50% {
+  }
+  100% {
     top: 0px;
+    left: 0px;
+  }
+}
+@keyframes bannerTxtBtn {
+  0% {
+    top: 100px;
+    left: 0px;
+  }
+  50% {
+  }
+  100% {
+    top: 0px;
+    left: 0px;
   }
 }
 
