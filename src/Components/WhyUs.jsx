@@ -26,6 +26,7 @@ const WhyUs = () => {
           textAlign: "center",
           fontSize: "36pt",
           color: "#2c2c2c",
+          fontFamily: "Red Rose",
         }}
       >
         Manakamana Binding Press?

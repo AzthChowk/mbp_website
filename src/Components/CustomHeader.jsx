@@ -8,7 +8,6 @@ const CustomHeader = (props) => {
         textAlign: "center",
         fontWeight: "500",
         fontSize: "24pt",
-        // textTransform: "uppercase",
       }}
     >
       {props.title}
