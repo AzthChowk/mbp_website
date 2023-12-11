@@ -41,7 +41,7 @@
 }
 
 .banner-cts-des h1 {
-  font-size: 30pt;
+  font-size: 42pt;
   font-weight: 500;
   font-family: "Red Rose";
   text-transform: uppercase;
@@ -160,7 +160,7 @@
     color: #fff;
   }
   .banner-wrapper .banner-cts .banner-cts-des h1 {
-    font-size: 36pt;
+    font-size: 30pt;
     transition: 0.5s ease-in;
   }
   .banner-wrapper .banner-cts .banner-cts-des h2 {
