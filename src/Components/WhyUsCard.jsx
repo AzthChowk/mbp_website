@@ -15,7 +15,7 @@ const WhyUsCard = (props) => {
           style={{
             padding: "10px",
             flex: 1,
-            backgroundColor: "#EEF5FF",
+            border: "2px solid #164863",
             borderRadius: "50px",
             // border: "2px solid #eef5ff",
           }}

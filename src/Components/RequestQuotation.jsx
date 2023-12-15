@@ -8,9 +8,9 @@ const RequestQuotation = () => {
         style={{
           backgroundColor: "#ebebeb",
           backgroundImage: `url(
-          "https://images.unsplash.com/photo-1490093158370-1a6be674437b?q=80&w=2028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "/footerBg-02.png"
         )`,
-          backgroundBlendMode: "multiply",
+          backgroundSize: "cover",
           margin: "50px 0",
         }}
       >
@@ -20,6 +20,7 @@ const RequestQuotation = () => {
             textAlign: "center",
             padding: "125px",
             alignItems: "center",
+            color: "#fff",
           }}
         >
           <h1 style={{ fontWeight: "200", fontSize: "28pt" }}>
