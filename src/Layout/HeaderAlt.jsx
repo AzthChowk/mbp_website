@@ -19,11 +19,11 @@ const HeaderAlt = () => {
     <Box
       className="navbar-wrapper"
       sx={{
-        backgroundColor: "#F3F3F3",
+        backgroundColor: "#092635",
         // background: "linear-gradient(45deg, #2b3f82, #04624e, #ffd254)",
         width: "100%",
         height: "auto",
-        color: "#164863",
+        color: "#fff",
         boxShadow:
           "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
         zIndex: "1000",
@@ -35,7 +35,7 @@ const HeaderAlt = () => {
       >
         <Box className="logo">
           <NavLink to="/">
-            <img src="/mbp black.svg" alt="" width="175px" />
+            <img src="/mbp white.svg" alt="" width="175px" />
           </NavLink>
         </Box>
         <Box
@@ -60,7 +60,7 @@ const HeaderAlt = () => {
               <CloseIcon
                 fontSize="medium"
                 sx={{
-                  color: "#164863",
+                  color: "#fff",
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               />
@@ -69,7 +69,7 @@ const HeaderAlt = () => {
             <>
               <MenuIcon
                 fontSize="medium"
-                sx={{ color: "#164863" }}
+                sx={{ color: "#fff" }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               />
             </>
@@ -116,7 +116,7 @@ const HeaderAlt = () => {
             alignItems: "center",
           }}
         >
-          <NavLink to="/contact" style={{ color: "#164863" }}>
+          <NavLink to="/contact" style={{ color: "#fff" }}>
             Request a quotation
           </NavLink>
         </Box>

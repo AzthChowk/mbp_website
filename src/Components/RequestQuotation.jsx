@@ -29,7 +29,7 @@ const RequestQuotation = () => {
 
           <p>
             Click the button to request a quotation or just send us an email at
-            mail@mail.com.
+            manakamanabindingpress5@gmail.com.
           </p>
           <NavLink to="contact">
             <button className="secondary-btn">Click me</button>

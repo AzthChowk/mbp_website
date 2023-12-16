@@ -7,7 +7,7 @@ const WhyUs = () => {
   return (
     <div
       style={{
-        padding: "40px 0",
+        padding: "100px 0 40px 0",
         alignItems: "center",
       }}
     >

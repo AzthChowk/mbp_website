@@ -39,7 +39,7 @@ const ContactPage = () => {
               </div>
               <div style={{ padding: "10px 0" }}>
                 <h4>Contact</h4>
-                <p>Mobile: +977 9841458081, 9851013446</p>
+                <p>Mobile: +977 9851013446, 9841458081</p>
                 <p>Email: manakamanabindingpress5@gmail.com</p>
               </div>
             </div>
