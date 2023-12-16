@@ -18,7 +18,7 @@ const RequestQuotation = () => {
           className="container"
           style={{
             textAlign: "center",
-            padding: "125px 0",
+            padding: "125px 20px",
             alignItems: "center",
             color: "#fff",
           }}
