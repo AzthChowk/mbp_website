@@ -23,7 +23,7 @@ const HeaderAlt = () => {
         // background: "linear-gradient(45deg, #2b3f82, #04624e, #ffd254)",
         width: "100%",
         height: "auto",
-        color: "#000",
+        color: "#164863",
         boxShadow:
           "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
         zIndex: "1000",
@@ -60,7 +60,7 @@ const HeaderAlt = () => {
               <CloseIcon
                 fontSize="medium"
                 sx={{
-                  color: "#000",
+                  color: "#164863",
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               />
@@ -69,7 +69,7 @@ const HeaderAlt = () => {
             <>
               <MenuIcon
                 fontSize="medium"
-                sx={{ color: "#000" }}
+                sx={{ color: "#164863" }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               />
             </>
@@ -116,7 +116,7 @@ const HeaderAlt = () => {
             alignItems: "center",
           }}
         >
-          <NavLink to="/contact" style={{ color: "#000" }}>
+          <NavLink to="/contact" style={{ color: "#164863" }}>
             Request a quotation
           </NavLink>
         </Box>
