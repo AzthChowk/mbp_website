@@ -6,10 +6,8 @@ const RequestQuotation = () => {
     <>
       <div
         style={{
-          backgroundColor: "#ebebeb",
-          backgroundImage: `url(
-          "/footerBg-02.png"
-        )`,
+          backgroundColor: "#1c3d46",
+
           backgroundSize: "cover",
           margin: "50px 0",
         }}

@@ -9,10 +9,10 @@ const RequestQuotationForm = () => {
 
     emailjs
       .sendForm(
-        "service_08q3umd",
-        "template_wnseape",
+        "service_j1ep69v",
+        "template_qab5aav",
         form.current,
-        "2LCiYkC6hKfVsQRLE"
+        "vCR9lBYtRz3HMEl64"
       )
       .then(
         (result) => {
